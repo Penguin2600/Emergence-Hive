@@ -1,7 +1,6 @@
 import pygame
-from pygame.locals import *
 from BiotClass import Biot
-from math import *
+from math import sqrt
 
 pygame.init()
 keys = {pygame.K_SPACE : False} #declare keys we will use
